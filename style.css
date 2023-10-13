@@ -9,9 +9,32 @@ body {
     background-color:blueviolet;
 }
 
+.title
+{
+max-width: 400px;
+background-color: white;
+border-radius: 4px;
+padding: 2rem;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+position: relative;
+}
+
+.title>p
+{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-style: italic;
+}
+
 .container {
     max-width: 400px;
     background-color: white;
+    border-radius: 4px;
     padding: 2rem;
     margin: auto;
     margin-top: 2rem;
@@ -98,7 +121,5 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    
-
-
+    border-radius: 0px 4px 0px 4px;
 }
